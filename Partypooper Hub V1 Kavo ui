@@ -1,0 +1,146 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Partypoopers Hub V1|Full release|The promised land", "Synapse")
+
+---Tabs
+
+local Tab1 = Window:NewTab("games :(")
+local Tab1Section = Tab1:NewSection("You know backroom :(")
+local Tab2 = Window:NewTab("keybinds :(")
+local Tab2Section = Tab2:NewSection("You Know Me?")
+local Tab3 = Window:NewTab("More Hub :(")
+local Tab3Section = Tab3:NewSection("I AM PURE!")
+local Tab4 = Window:NewTab("executor remake :(")
+local Tab4Section = Tab4:NewSection("Are You Happy Know")
+local Tab5 = Window:NewTab("Admin commad :(")
+local Tab5Section = Tab5:NewSection("Help Me")
+local Tab6 = Window:NewTab("Script main :(")
+local Tab6Section = Tab6:NewSection("No me again")
+
+---Buttons
+
+Tab1Section:NewButton("Brookhaven 🏡RP", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Tab1Section:NewButton("🔪 Survive the Killer!", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
+end)
+
+Tab1Section:NewButton("Blox Fruits", "Use Old version Hoho hub for no need key", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+Tab1Section:NewButton("Flee the Facility", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+end)
+
+Tab1Section:NewButton("Apeirophobia [UPDATE 3.5]", "No Description", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/0ptVa7Dn'))()
+end)
+
+Tab1Section:NewButton("3008 [2.71]", "No Description", function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/scripts/main/3008.lua')()
+end)
+
+Tab1Section:NewButton("DOORS 👁️", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+Tab1Section:NewButton("Murder Mystery 2", "No Description", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end)
+
+Tab1Section:NewButton("Arsenal", "No Description", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+end)
+
+Tab1Section:NewButton("Adopt Me!", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+Tab1Section:NewButton("[🕔] Pop It Trading ✨", "No Description", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/domdaobfuscater/09214a11b8a30bab47ceff281116195f/raw/40356a0ff4542a51283ab5de0a642233a6ceb6f9/gistfile1.txt"))()
+end)
+
+Tab1Section:NewButton("[🎅 TITANIC] Pet Simulator X! 🐾", "No Description", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
+Tab1Section:NewButton("Da Hood [❄️]", "No Description", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
+
+Tab1Section:NewButton("⚡Ninja Legends", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/rotartearadsaw/main/Ninja%20Legends%20Script%20Main%20Keyless"))()
+end)
+
+Tab1Section:NewButton("💜 MeepCity 💜", "No Description", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yLegendzz/Scripts/main/Meepcity'))()
+end)
+
+Tab1Section:NewButton("BedWars ❄️ [WINTER BUNDLE!]", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bojoexploitz/yooo/main/itsobfuscated/InfinityHubTooOP", true))()
+end)
+
+Tab1Section:NewButton("Funky Friday [flux only]", "Autoplay", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+end)
+
+Tab1Section:NewButton("{NEW UPDATE!} Monday Morning Misery [Beta]", "ButtonInfo", function()
+    loadstring(game:HttpGet'https://raw.githubusercontent.com/stavratum/lua/main/mmm/Main.lua')()(Discord)
+end)
+
+Tab2Section:NewKeybind("Keybind", "No Description", Enum.KeyCode.P, function()
+end)
+
+Tab1Section:NewButton("[🎄🎅❄] Infectious Smile", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PcallHub/RobloxScripts/main/Loader.lua"))()
+end)
+
+Tab3Section:NewButton("Pendulum Hub", "Fe", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+Tab3Section:NewButton("Vhub Simple", "No Description", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Veincx5315/Created/VHub/Simple'),true))()
+end)
+
+Tab3Section:NewButton("Mini Hub", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+end)
+
+Tab4Section:NewButton("Krnl Remake (Hydrogen only)", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoeasyToMakeHubRoblox/kio/main/KRNL"))()
+end)
+
+Tab4Section:NewButton("Synapse X remake", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NoeasyToMakeHubRoblox/main/main/Synapse%20X"))()
+end)
+
+Tab5Section:NewButton("IY Admin", "No Description", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/8qwf8SHF", true))()
+end)
+
+Tab6Section:NewButton("Fly V2", "No Description", function()
+    loadstring(game:HttGet("https://raw.githubusercontent.com/DrFredfnafid/fly-v2/main/Fly%20v2?token=GHSAT0AAAAAAB4Y5IKOENEKTR2G5I4VFDCSY5L736Q"))();
+end)
+
+Tab6Section:NewButton("Keyboard", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+Tab6Section:NewButton("Mouse", "No Description", function()
+    loadstring(game:HttpGet(('https://pastefy.ga/V75mqzaz/raw'),true))()
+end)
+
+Tab6Section:NewButton("Anti Afk", "No Description", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Btt5A3CC"))()
+end)
+
+Tab1Section:NewButton("Ohio.", "Swap Like Roblox Ohio", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hkvHeHed",true))()
+end)
+
+Tab4Section:NewButton("Arceus X V3 Remake", "No Description", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
